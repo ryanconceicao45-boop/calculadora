@@ -48,7 +48,8 @@ git clone https://github.com/ryanconceicao45-boop/calculadora
 
 ## 📸 Preview
 
-<video src="./main/img/Calculadora-video.mp4" controls></video>
+<video src="./main/img/Calculadora-video.mp4" autoplay muted loop></video>
+<!-- <video src="./video.mp4" autoplay muted loop></video> -->
 ---
 
 ## 🔥 Melhorias futuras
