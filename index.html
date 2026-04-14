@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main/style.css">
+    <link rel="icon" href="./main/icon.webp">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=sunny" />
+    <title>calculadora</title>
+</head>
+
+<body>
+    <main> 
+<!-- Meu primeiro projeto utilizando javaScript simples calculadora -->
+        <section class="box-calculadora">
+            <div class="conteiner">
+                <h1 id="operador-inicial">0</h1>
+            </div>
+
+            <div class="conteiner-tabela">
+                <div class="box-principal">
+                    <button id="b-clear" onclick="limpar('C')">CLEAR</button>
+                    <button onclick="limpar('CE')">CE</button>
+                    <button id="b-divisao" onclick="OperatorNumer('*')">X</button>
+                    <button id="b-multi" onclick="OperatorNumer('/')">÷</button>
+                </div>
+                <div class="box-secundario">
+                    <div class="conteiner-number">
+                        <button onclick="escolherNumero(7)" id="number-7">7</button>
+                        <button onclick="escolherNumero(8)" id="number-8">8</button>
+                        <button onclick="escolherNumero(9)" id="number-9">9</button>
+
+                        <button onclick="escolherNumero(4)" id="number-4">4</button>
+                        <button onclick="escolherNumero(5)" id="number-5">5</button>
+                        <button onclick="escolherNumero(6)" id="number-6">6</button>
+
+                        <button onclick="escolherNumero(1)" id="number-1">1</button>
+                        <button onclick="escolherNumero(2)" id="number-2">2</button>
+                        <button onclick="escolherNumero(3)" id="number-3">3</button>
+
+                        <button onclick="escolherNumero(0)" id="number-0">0</button>
+                        <button onclick="escolherNumero('00')" id="number-00">00</button>
+                        <button onclick="escolherNumero('.')" id="number-ponto">.</button>
+                    </div>
+
+                    <div class="box-somatorios">
+                        <button id="b-menos" onclick="OperatorNumer('-')">-</button>
+                        <button id="b-mais" onclick="OperatorNumer('+')">+</button>
+                        <button id="b-igual" onclick="calcular()">=</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+                <section>
+            <button class="box-dark-md material-symbols-outlined" onclick="activeDarkMode()" id="dark-mode">
+                sunny
+            </button>
+        </section>
+    </main>
+
+    <script src="./main/script.js"></script>
+</body>
+
+</html>

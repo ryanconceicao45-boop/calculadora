@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --color-body: #1d1d1d;
+    --color-bg: #272727;
+    --color-clear: #9a4040;
+    --bg-cal: 400px;
+    --font-geral: clamp(14px, 2vw, 18px);
+    --color-bt: #313131;
+    --shadow: 0px 0px 2px #838383;
+    --boder-r: 12px;
+    --cor-border: 1px solid #292929;
+    --cor-principal: #fff;
+}
+
+body.dark {
+    --color-body: #ffffff;
+    --color-bg: #dddddd;
+    --color-clear: #9d7f7f;
+    --color-bt: #ededed;
+    --cor-principal: #484848;
+    --cor-border: 1px solid #bababa;
+}
+
+button:active {
+    transform: scale(0.90);
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: var(--color-body);
+    color: #ffffff;
+    padding: 20px;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    margin: 220px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: clamp(2px, 1vw, 10px);
+    column-gap: clamp(2px, 1vw, 10px);
+}
+
+.box-dark-md {
+    padding: 10px;
+    background: var(--color-bg);
+    border: var(--cor-border);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    color: var(--color-clear);
+}
+
+.box-calculadora {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    height: 500px;
+    padding: 20px;
+    background: var(--color-bg);
+    border: var(--cor-border);
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+}
+
+.conteiner-tabela {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/*
+===========================================
+=============== BARRA INPUT ===============
+===========================================
+*/
+.conteiner {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: right;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+
+    background: var(--color-bt);
+    border: var(--cor-border);
+    border-radius: var(--boder-r);
+    font-size: var(--font-geral);
+    color: var(--cor-principal);
+    overflow: hidden;
+}
+
+
+
+
+/*
+===========================================
+============= CLAER OPERATOR ==============
+===========================================
+*/
+.box-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 0 15px 0;
+    width: 100%;
+    gap: 6px;
+}
+
+.box-principal button {
+    padding: 20px clamp(5px, 1vw, 20px);
+    width: 100%;
+    max-width: 220px;
+    height: 60px;
+    border: var(--cor-border);
+    border-radius: var(--boder-r);
+    background: var(--color-bt);
+    color: var(--cor-principal);
+    font-size: var(--font-geral);
+}
+
+.box-principal #b-clear {
+    width: 600px;
+    background: var(--color-clear);
+    color: #ffffff;
+    border: none;
+}
+
+/*
+===========================================
+============= NUMBER OPERATOR =============
+===========================================
+*/
+
+.box-secundario {
+    display: flex;
+    gap: 10px;
+}
+
+.conteiner-number {
+    width: 282px;
+    max-width: 282px;
+    height: 282px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+}
+
+.conteiner-number button {
+    width: 100%;
+    height: 100%;
+    padding: 20px clamp(5px, 1vw, 20px);
+    border: var(--cor-border);
+    background: var(--color-bt);
+    border-radius: 15px;
+    color: var(--cor-principal);
+    font-size: var(--font-geral);
+}
+
+
+/*
+===========================================
+=============== SIMBOLO SOMA ==============
+===========================================
+*/
+.box-somatorios {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 70px;
+}
+
+.box-somatorios button {
+    width: 100%;
+    padding: 20px clamp(5px, 1vw, 20px);
+    border: var(--cor-border);
+    background: var(--color-bt);
+    border-radius: 15px;
+    color: var(--cor-principal);
+    font-size: var(--font-geral);
+}
+
+.box-somatorios #b-igual {
+    border: none;
+    width: 100%;
+    background: var(--color-clear);
+    height: 100%;
+    color: #fff;
+}
