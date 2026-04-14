@@ -31,23 +31,11 @@
 
 ---
 
-## 📂 Estrutura do projeto
-
-```
-/projeto
-│── index.html
-│── style.css
-│── script.js
-│── assets/
-```
-
----
-
 ## ▶️ Como executar
 
 ```bash
 # Clone o repositório
-git clone URL_DO_SEU_REPOSITORIO
+git clone https://github.com/ryanconceicao45-boop/calculadora
 
 # Abra o index.html no navegador
 ```
@@ -56,7 +44,7 @@ git clone URL_DO_SEU_REPOSITORIO
 
 ## 📸 Preview
 
-> Coloque aqui prints do projeto
+<img src="./main/icon.webp">
 
 ---
 
