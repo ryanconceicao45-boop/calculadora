@@ -1,6 +1,10 @@
 # 🧮 Calculadora
 
-> Descrição breve do projeto aqui...
+> Este é o meu primeiro projeto utilizando JavaScript, desenvolvido com o objetivo de colocar em prática os conceitos fundamentais da linguagem e aprofundar meu entendimento sobre lógica de programação.
+
+>Este projeto representa um passo importante na minha jornada como desenvolvedor, marcando a transição da teoria para a prática. Ao longo do desenvolvimento, busquei escrever um código organizado, compreensível e escalável, sempre focando em aprender da forma mais correta possível.
+
+> Sinta-se à vontade para explorar o projeto, testar as funcionalidades e acompanhar minha evolução como desenvolvedor 🚀
 
 ---
 
@@ -44,7 +48,7 @@ git clone https://github.com/ryanconceicao45-boop/calculadora
 
 ## 📸 Preview
 
-<img src="./main/img/photo.gif">
+<img src="./main/img/Calculadora-video.mp4">
 
 ---
 
