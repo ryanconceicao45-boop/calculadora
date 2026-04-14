@@ -44,7 +44,7 @@ git clone https://github.com/ryanconceicao45-boop/calculadora
 
 ## 📸 Preview
 
-<img src="./main/icon.webp">
+<img src="./main/img/photo.gif">
 
 ---
 
@@ -59,13 +59,11 @@ git clone https://github.com/ryanconceicao45-boop/calculadora
 
 ## 👨‍💻 Autor
 
-**Seu Nome Aqui**
+**RYAN DA CONCEIÇÃO BARBOSA**
 
-* LinkedIn:
-* GitHub:
+* LinkedIn: https://www.linkedin.com/in/ryan-concei%C3%A7%C3%A3o-132404283/
 
 ---
 
 ## 📄 Licença
-
 Este projeto está sob a licença MIT.
