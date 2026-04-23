@@ -40,7 +40,7 @@
 
 **RYAN DA CONCEIÇÃO BARBOSA**
 
-* LinkedIn: https://www.linkedin.com/in/ryan-concei%C3%A7%C3%A3o-132404283/
+* LinkedIn: https://www.linkedin.com/in/ryan-devv
 
 ---
 
