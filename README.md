@@ -29,29 +29,10 @@
 
 ---
 
-## ▶️ Como executar
-
-```bash
-# Clone o repositório
-git clone https://github.com/ryanconceicao45-boop/calculadora
-
-# Abra o index.html no navegador
-```
-
----
-
 ## 📸 Preview
 
 <img src="./main/img/video.gif">
 
----
-
-## 🔥 Melhorias futuras
-
-* [ ] Suporte a teclado
-* [ ] Histórico de cálculos
-* [ ] Melhor responsividade
-* [ ] Animações mais avançadas
 
 ---
 
