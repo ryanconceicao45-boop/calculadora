@@ -68,4 +68,4 @@ LinkedIn: https://www.linkedin.com/in/ryan-devv
 
 ---
 
-banner: https://ik.imagekit.io/ubdczxve6/calculadora.jpg?updatedAt=1781797979726
+Banner: https://ik.imagekit.io/ubdczxve6/calculadora.jpg?updatedAt=1781797979726
