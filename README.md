@@ -1,4 +1,4 @@
-# 🧮 Calculadora
+### 🧮 Calculadora
 
 > Este é o meu primeiro projeto utilizando JavaScript, desenvolvido com o objetivo de colocar em prática os conceitos fundamentais da linguagem e aprofundar meu entendimento sobre lógica de programação.
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 🚀 Tecnologias utilizadas
+### 🚀 Tecnologias utilizadas
 
 * HTML5
 * CSS3
@@ -16,7 +16,7 @@
 
 ---
 
-## 🎯 Funcionalidades
+### 🎯 Funcionalidades
 
 * [ ] Operações básicas (+, -, *, /)
 * [ ] Sistema de cálculo em tempo real
@@ -28,21 +28,40 @@
 * [ ] Sons de clique
 
 ---
+### 💡 Aprendizados
+Durante o desenvolvimento deste projeto foram praticados conceitos como:
 
-## 📸 Preview
+* [ ] Manipulação do DOM
+* [ ] Eventos de clique
+* [ ] Funções
+* [ ] Condicionais
+* [ ] Operadores matemáticos
+* [ ] Conversão de tipos de dados
+* [ ] Lógica de programação
+* [ ] Tratamento de entradas do usuário
+* [ ] Organização de código
+* [ ] Responsividade
+* [ ] Animações e efeitos visuais
+* [ ] Boas práticas de desenvolvimento Front-End
+
+---
+
+### 📸 Preview
 
 <img src="./main/img/video.gif">
 
 
 ---
 
-## 👨‍💻 Autor
+### 👨‍💻 Autor
 
-**RYAN DA CONCEIÇÃO BARBOSA**
-
-* LinkedIn: https://www.linkedin.com/in/ryan-devv
+RYAN DA CONCEIÇÃO BARBOSA
+<br>
+LinkedIn: https://www.linkedin.com/in/ryan-devv
 
 ---
 
-## 📄 Licença
-Este projeto está sob a licença MIT.
+### 📄 Licença
+⭐ Este projeto está sob a licença MIT.
+<br>
+⭐ Se gostou do projeto, considere deixar uma estrela no repositório.
