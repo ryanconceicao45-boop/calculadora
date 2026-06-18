@@ -65,3 +65,7 @@ LinkedIn: https://www.linkedin.com/in/ryan-devv
 ⭐ Este projeto está sob a licença MIT.
 <br>
 ⭐ Se gostou do projeto, considere deixar uma estrela no repositório.
+
+---
+
+banner: https://ik.imagekit.io/ubdczxve6/calculadora.jpg?updatedAt=1781797979726
